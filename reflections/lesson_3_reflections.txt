@@ -14,3 +14,6 @@ You can easily see the difference between your changes and that is stored on git
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Depends mostly on what sort of project, coding it has clear advantages but simpler files and project probably this would add to many extra steps to sharing and colaborating with files.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+So that you can initiate a pull to have your code added into the branch officially.  Branching provides control over a collaborative project and direct control to master branch gives 1 person complete control in solo situations
