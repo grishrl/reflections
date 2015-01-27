@@ -1,3 +1,23 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Git prepares the folder of meta data of the repository, to start a commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add changed files one a time to the staging area and see how they affect the logic of the commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Adding changes you're not sure about or making changes while keeping base code the same
+
+How do the diagrams help you visualize the branch structure?
+By giving the commits a visual representation instead of text logs.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The versions of files are combined.  Because all the changes are still accesible from the new branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+auto merge:
+simple differences can automatically be sorted through
+in case of abiguity you make the ultimate decision
+
+manually
+you always have to sort through differences
